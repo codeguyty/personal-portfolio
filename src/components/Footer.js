@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaFacebook, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function Footer() {
     return(
@@ -10,15 +10,11 @@ function Footer() {
                 <FaGithub />
                 <span className='sr-only'>Github</span>
             </a>
-            <a className='text-xl m-1 p-1 sm:m-2 text-blue-600 hover:bg-blue-600 rounded-full hover:text-white transition-colors duration-300' href='https://github.com/codeguyty'>
-                <FaFacebook />
-                <span className='sr-only'>FaceBook</span>
-            </a>
-            <a className='text-xl m-1 p-1 sm:m-2 text-blue-500 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300' href='https://github.com/codeguyty'>
+            <a className='text-xl m-1 p-1 sm:m-2 text-blue-500 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300' href='https://www.linkedin.com/in/tyler-moyer-5a70971a2'>
                 <FaLinkedin />
                 <span className='sr-only'>Linkedin</span>
             </a>
-            <a className='text-xl m-1 p-1 sm:m-2 text-sky-400 hover:bg-sky-400 rounded-full hover:text-white transition-colors duration-300' href='https://github.com/codeguyty'>
+            <a className='text-xl m-1 p-1 sm:m-2 text-sky-400 hover:bg-sky-400 rounded-full hover:text-white transition-colors duration-300' href='mailto:codeguyty@icloud.com'>
                 <FaEnvelope />
                 <span className='sr-only'>Mail</span>
             </a>

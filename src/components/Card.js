@@ -28,7 +28,7 @@ function Card() {
                         <FaLinkedin />
                         <span className='sr-only'>Linkedin</span>
                     </a>
-                    <a className='text-xl m-1 p-1 sm:m-2 text-sky-400 hover:bg-sky-400 rounded-full hover:text-white transition-colors duration-300' href='mailto:codeguyty@icloud.com'>
+                    <a className='text-xl m-1 p-1 sm:m-2 text-blue-400 hover:bg-blue-400 rounded-full hover:text-white transition-colors duration-300' href='mailto:codeguyty@icloud.com'>
                         <FaEnvelope />
                         <span className='sr-only'>Mail</span>
                     </a>
